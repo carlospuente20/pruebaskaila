@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+#contenedor{
+    width: 95%;
+    margin: auto;
+
+}
+
+header{
+    text-align: center;
+}
+
+.clearfix{
+    clear: both;
+}
+
+nav ul li{
+    list-style: none;
+    float: right;
+    margin: 5px 15px;
+    padding: 8px 15px;
+    background: orange;
+    border-radius: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+nav ul li a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.imgSection{
+    width: 50%;
+    background: transparent;
+    float: left;
+}
+
+.tableSection{
+    width: 50%;
+    background: transparent;
+    float: left;
+    margin-top: 120px;
+}
+
+.tableSection table{
+    width: 80%;
+}
+#playlist{
+    height: 400px;
+    background: url("../images/back.png");
+    box-shadow: 4px 3px 7px -1px rgba(0,0,0,0.73);
+-webkit-box-shadow: 4px 3px 7px -1px rgba(0,0,0,0.73);
+-moz-box-shadow: 4px 3px 7px -1px rgba(0,0,0,0.73);
+}
+
+#texto-cancionMomento{
+    width: 50%;
+    float: left;
+}
+#video-cancionMomento{
+    width: 50%;
+    float: left;
+}
+
+section{
+    margin: 50px 0px;
+}
+
+#texto-cancionMomento p{
+    margin-top: 50px;
+}
+
+#video-cancionMomento iframe{
+    display: block;
+    margin: auto;
+}
+
+article{
+    width: calc(20% - 50px);
+    float: left;
+    border: 1px solid orange;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 10px;
+    box-shadow: 4px 3px 7px -1px rgba(0,0,0,0.73);
+-webkit-box-shadow: 4px 3px 7px -1px rgba(0,0,0,0.73);
+-moz-box-shadow: 4px 3px 7px -1px rgba(0,0,0,0.73);
+min-height: 350px;
+max-height: 400px;
+}
+
+h1, h2{
+    font-weight: 900;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    color: gray;
+}
+
+footer ul li{
+    float: left;
+    list-style: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: 1px solid orange;
+    margin: 5px 15px;
+}
+
+footer{
+    background: gray;
+    color: white;
+    padding: 25px 40px;
+    height: 180px;
+}
+
+article img{
+    width: 100%;
+}

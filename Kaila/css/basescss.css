@@ -1,0 +1,67 @@
+#padre{
+    background: red ;
+    width: 95%;
+    margin: auto;
+}
+
+#hijo1{
+    display: inline-block;
+    /*background: blue;*/
+    width: 80%;
+    float: left;
+}
+
+#hijo2{
+    display: inline-block;
+    background: goldenrod;
+    width: 20%;
+    float: left;
+}
+
+.nieto{
+    width: calc(33% - 40px);
+    /*background: orange;*/
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 4px 3px 13px 0px rgba(0,0,0,0.7);
+-webkit-box-shadow: 4px 3px 13px 0px rgba(0,0,0,0.7);
+-moz-box-shadow: 4px 3px 13px 0px rgba(0,0,0,0.7);
+
+}
+.nieto img{
+    width: 100%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    float: left;
+    padding: 8px 25px;
+    background: wheat;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button{
+    background: cyan;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+nav ul li:hover{
+    background: yellowgreen;
+    color: white;
+}

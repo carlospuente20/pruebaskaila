@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Practice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/estilo.css">
+
+</head>
+<body>
+    <!--Aquí va el encabezado-->
+    <header>
+        <hgroup>
+            <h1 id="titulo">Music Practice</h1>
+            <h2 id="slogan">Tu plataforma musical</h2>
+        </hgroup>
+    </header>
+    <!--Aqui creamos el menú de navegación-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="contacto.html">Contáctanos</a></li>
+            <li><a href="error.html">Página 404</a></li>
+
+        </ul>
+    </nav>
+
+    <main>
+
+        <img id="icono" src="images/guitar_clean.png" alt="Persona escuchando música">
+        <section id="playlist">
+            <table>
+                <thead>
+                    <tr>
+                        <th> # </th>
+                        <th> Artista </th>
+                        <th> Género </th>
+                        <th> Año </th>
+                        <th> Canción </th>
+                        <th> Reproducir </th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> 1 </td>
+                        <td> System of a Down </td>
+                        <td> Rock </td>
+                        <td> 2000 </td>
+                        <td> Chop Suey </td>
+                        <td><a href="https://www.youtube.com/watch?v=clUkF4z6Q14" target="blank"><i class="bi bi-play-circle-fill"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td> 2 </td>
+                        <td> Rammstein </td>
+                        <td> Rock </td>
+                        <td> 2002 </td>
+                        <td> Engel </td>
+                        <td><a href="https://www.youtube.com/watch?v=x2rQzv8OWEY" target="blank"><i class="bi bi-play-circle-fill"></i></a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+        <section id="noticias1">
+            <h2>La canción del momento</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit ea odit culpa deserunt iure, similique reprehenderit quia ducimus fugit. Quas, recusandae neque? Nostrum magnam quam ea, omnis nisi consectetur. Suscipit a sit rerum modi accusamus et, debitis quam, maxime culpa tempora vel amet dolorem commodi. Dignissimos quo distinctio voluptas quasi.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CSvFpBOe8eY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section id="noticias2">
+            <h2>Noticias</h2>
+            <article class="articulo">
+                <h3>Estreno musical</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim laborum praesentium voluptates odit sapiente. Doloribus tempora dignissimos ex modi voluptas.</p>
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRl1SOxDoOtk8maPpXOdo-jJhXIgR9vIfOhxhdNK1J3I1pValRC" alt="Serj Tankian">
+
+            </article>
+            <article class="articulo">
+                <h3>Till Lindeman en Terapia</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, architecto impedit molestiae ipsam eos assumenda atque facere officia tenetur quo.</p>
+                <img src="data:image/jpeg;base64,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" alt="Till Lindeman">
+
+            </article>
+
+            <article class="articulo">
+                <h3>Korn está de vuelta</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nesciunt incidunt voluptates tenetur beatae suscipit dolorem ipsum eligendi provident animi.</p>
+                <img src="https://garajedelrock.com/wp-content/uploads/2022/01/korn-lanzaria-su-nueva-cancion-llamada-now.jpg" alt="Korn">
+            </article>
+        </section>
+    </main>
+    <div class="clearfix"></div>
+    <footer>
+        <h3>P&M Solutions</h3>
+        <p>Contáctanos</p>
+        <ul>
+            <li><e-mail><a href="mailto:carlos_puent@hotmail.com">Correo</a></e-mail></li>
+            <li>whatsapp</li>
+        </ul>
+    </footer>
+</body>
+</html>
